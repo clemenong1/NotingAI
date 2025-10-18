@@ -1,0 +1,62 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs and runtime files
+*.log
+*.out
+*.pid
+streamlit/
+.streamlit/
+*.sqlite
+*.db
+
+# Uploaded data
+data/uploads/
+data/chroma/
+data/temp/
+*.pdf
+
+# Jupyter / notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Test outputs
+.coverage
+htmlcov/
+pytest_cache/
+
+# Cache folders
+.cache/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
